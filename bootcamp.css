@@ -1,0 +1,61 @@
+h1 {
+color: blueviolet;
+text-decoration: underline;
+text-align: center; 
+cursor: pointer;
+}
+
+h3 {
+    text-transform: capitalize;
+    color: darksalmon;
+}
+
+thead {
+    background-color: black; 
+    color:white;
+}
+
+thead:hover {
+    background: darksalmon;
+    color: white;
+}
+
+.foot, h4, .form {
+    text-align: center; 
+}
+
+td a:hover, h1:hover {
+    color: darksalmon;
+}
+
+/* Buttons */
+.btn {
+    background-color:grey;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn:hover {
+    background: rgb(219, 151, 62);
+}
+
+/* Form */
+.contain {
+    background-color:rgb(224, 224, 224);
+}
+.form {
+    background-color: white;
+    width: 25%;
+    height: 300px;
+    border-top: 10px;
+    margin: auto;
+    overflow: auto;
+}
+
+.diff {
+    color: darksalmon;
+    font-size: 20px;
+    text-transform: uppercase;
+}
